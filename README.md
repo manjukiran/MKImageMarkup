@@ -1,6 +1,6 @@
 # MKImageMarkup
 
-A wrapped around Inkpad's (https://github.com/sprang/Inkpad/) sourcecode. This can be used by other devs to use when required to annotate/markup images in their apps. Built on Steve Sprang's project that so many others contribute to. Thanks Steve for an incredible piece of code.
+A wrapper around [Inkpad's](https://github.com/sprang/Inkpad/) sourcecode. This can be used by other devs to use when required to annotate/markup images in their apps. Built on Steve Sprang's project that so many others contribute to. Thanks [Steve](https://github.com/sprang/) for an incredible piece of code.
 
 ## How to Use
 
@@ -8,7 +8,9 @@ A wrapped around Inkpad's (https://github.com/sprang/Inkpad/) sourcecode. This c
 ### For people who want a plug and play solution 
   
   1) Download the repository. Copy-Paste the **"MKImageMarkup.framework"** file from **"MK ImageMarkup Example"** subfolder into     your project.  
+  
   2)In your project's settings bar , select General and add the **"MKImageMarkup.framework"** as an **Embedded Binary** into your project
+  
   3) In your project's Info.Plist file, add the following code
   
     <key>UTExportedTypeDeclarations</key>	
@@ -33,7 +35,9 @@ A wrapped around Inkpad's (https://github.com/sprang/Inkpad/) sourcecode. This c
 	</array>
 	
   4) In your view controller : add #import <MKImageMarkup/MKImageMarkup.h>
+  
   5) Set your ViewControler to be a delegate <MKImageMarkupDelegate>
+  
   6) Add the delegate method
   
       -(void)didDismissMarkupSessionWithImage:(UIImage*)image imageEdited:(BOOL)imageEdited
