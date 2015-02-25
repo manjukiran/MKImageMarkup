@@ -14,6 +14,8 @@
 		C2D1D1601A9DE6F800503A52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D1D15F1A9DE6F800503A52 /* Images.xcassets */; };
 		C2D1D1631A9DE6F800503A52 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D1D1611A9DE6F800503A52 /* LaunchScreen.xib */; };
 		C2D1D16F1A9DE6F800503A52 /* MK_ImageMarkup_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D1D16E1A9DE6F800503A52 /* MK_ImageMarkup_ExampleTests.m */; };
+		C2D1D9771A9DE88500503A52 /* MKImageMarkup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D1D9741A9DE77500503A52 /* MKImageMarkup.framework */; };
+		C2D1D9781A9DE88500503A52 /* MKImageMarkup.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2D1D9741A9DE77500503A52 /* MKImageMarkup.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +26,49 @@
 			remoteGlobalIDString = C2D1D14E1A9DE6F800503A52;
 			remoteInfo = "MK ImageMarkup Example";
 		};
+		C2D1D9711A9DE77500503A52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2D1D96B1A9DE77400503A52 /* Inkpad.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
+			remoteInfo = Inkpad;
+		};
+		C2D1D9731A9DE77500503A52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2D1D96B1A9DE77400503A52 /* Inkpad.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C2D1CEAB1A9C87C700503A52;
+			remoteInfo = MKImageMarkup;
+		};
+		C2D1D9751A9DE87E00503A52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2D1D96B1A9DE77400503A52 /* Inkpad.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C2D1CEAA1A9C87C700503A52;
+			remoteInfo = MKImageMarkup;
+		};
+		C2D1D9791A9DE88500503A52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2D1D96B1A9DE77400503A52 /* Inkpad.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C2D1CEAA1A9C87C700503A52;
+			remoteInfo = MKImageMarkup;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2D1D97B1A9DE88500503A52 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C2D1D9781A9DE88500503A52 /* MKImageMarkup.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C2D1D14F1A9DE6F800503A52 /* MK ImageMarkup Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MK ImageMarkup Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +84,7 @@
 		C2D1D1681A9DE6F800503A52 /* MK ImageMarkup ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MK ImageMarkup ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D1D16D1A9DE6F800503A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2D1D16E1A9DE6F800503A52 /* MK_ImageMarkup_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MK_ImageMarkup_ExampleTests.m; sourceTree = "<group>"; };
+		C2D1D96B1A9DE77400503A52 /* Inkpad.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Inkpad.xcodeproj; path = "Inkpad-develop-framework-project/Inkpad.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2D1D9771A9DE88500503A52 /* MKImageMarkup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +109,7 @@
 		C2D1D1461A9DE6F800503A52 = {
 			isa = PBXGroup;
 			children = (
+				C2D1D96B1A9DE77400503A52 /* Inkpad.xcodeproj */,
 				C2D1D1511A9DE6F800503A52 /* MK ImageMarkup Example */,
 				C2D1D16B1A9DE6F800503A52 /* MK ImageMarkup ExampleTests */,
 				C2D1D1501A9DE6F800503A52 /* Products */,
@@ -119,6 +166,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C2D1D96C1A9DE77400503A52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2D1D9721A9DE77500503A52 /* Inkpad.app */,
+				C2D1D9741A9DE77500503A52 /* MKImageMarkup.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,10 +185,13 @@
 				C2D1D14B1A9DE6F800503A52 /* Sources */,
 				C2D1D14C1A9DE6F800503A52 /* Frameworks */,
 				C2D1D14D1A9DE6F800503A52 /* Resources */,
+				C2D1D97B1A9DE88500503A52 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C2D1D9761A9DE87E00503A52 /* PBXTargetDependency */,
+				C2D1D97A1A9DE88500503A52 /* PBXTargetDependency */,
 			);
 			name = "MK ImageMarkup Example";
 			productName = "MK ImageMarkup Example";
@@ -182,10 +241,27 @@
 			knownRegions = (
 				en,
 				Base,
+				"-english",
+				de,
+				es,
+				fr,
+				it,
+				ja,
+				"pt-PT",
+				pt,
+				pt_PT,
+				tr,
+				"zh-Hans",
 			);
 			mainGroup = C2D1D1461A9DE6F800503A52;
 			productRefGroup = C2D1D1501A9DE6F800503A52 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C2D1D96C1A9DE77400503A52 /* Products */;
+					ProjectRef = C2D1D96B1A9DE77400503A52 /* Inkpad.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C2D1D14E1A9DE6F800503A52 /* MK ImageMarkup Example */,
@@ -193,6 +269,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C2D1D9721A9DE77500503A52 /* Inkpad.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Inkpad.app;
+			remoteRef = C2D1D9711A9DE77500503A52 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C2D1D9741A9DE77500503A52 /* MKImageMarkup.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MKImageMarkup.framework;
+			remoteRef = C2D1D9731A9DE77500503A52 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C2D1D14D1A9DE6F800503A52 /* Resources */ = {
@@ -240,6 +333,16 @@
 			isa = PBXTargetDependency;
 			target = C2D1D14E1A9DE6F800503A52 /* MK ImageMarkup Example */;
 			targetProxy = C2D1D1691A9DE6F800503A52 /* PBXContainerItemProxy */;
+		};
+		C2D1D9761A9DE87E00503A52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MKImageMarkup;
+			targetProxy = C2D1D9751A9DE87E00503A52 /* PBXContainerItemProxy */;
+		};
+		C2D1D97A1A9DE88500503A52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MKImageMarkup;
+			targetProxy = C2D1D9791A9DE88500503A52 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -345,7 +448,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Inkpad-develop-framework-project",
+				);
 				INFOPLIST_FILE = "MK ImageMarkup Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,7 +463,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Inkpad-develop-framework-project",
+				);
 				INFOPLIST_FILE = "MK ImageMarkup Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +527,7 @@
 				C2D1D1741A9DE6F800503A52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2D1D1751A9DE6F800503A52 /* Build configuration list for PBXNativeTarget "MK ImageMarkup ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +536,7 @@
 				C2D1D1771A9DE6F800503A52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

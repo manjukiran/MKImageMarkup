@@ -1,0 +1,31 @@
+dependencies: \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDColorAdjustmentController.m \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDAppDelegate.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/DropboxSDK.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/DBAccountInfo.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/DBQuota.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/DBSession.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/MPOAuthCredentialConcreteStore.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/MPOAuthCredentialStore.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/MPOAuthParameterFactory.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/DBRestClient.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/DBRequest.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/DBMetadata.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/DBError.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/NSString+Dropbox.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/DBDeltaEntry.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/DBSession+iOS.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDBlockingView.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDCanvas.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Inkpad-Core/Controllers/WDDrawingController.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Inkpad-Core/Model/WDElement.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Inkpad-Core/Model/WDDrawing.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Inkpad-Core/Model/WDDocumentProtocol.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Inkpad-Core/Model/WDStrokeStyle.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Inkpad-Core/Model/WDXMLElement.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDColorAdjustmentController.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDModalTitleBar.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Inkpad-Core/Utilities/WDUtilities.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Inkpad-Core/Model/WDPickResult.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDPaletteBackgroundView.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/UIView+Additions.h

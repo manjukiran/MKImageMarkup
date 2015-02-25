@@ -1,0 +1,43 @@
+dependencies: \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDBrowserController.m \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/DropboxSDK.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/DBAccountInfo.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/DBQuota.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/DBSession.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/MPOAuthCredentialConcreteStore.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/MPOAuthCredentialStore.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/MPOAuthParameterFactory.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/DBRestClient.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/DBRequest.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/DBMetadata.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/DBError.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/NSString+Dropbox.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/DBDeltaEntry.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/DropboxSDK.framework/Headers/DBSession+iOS.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Openclipart/OCAEntry.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Openclipart/OCAViewController.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Openclipart/OCADownloader.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Inkpad-Core/Additions/NSData+Additions.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDActivity.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDActivityController.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDActivityManager.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDAppDelegate.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDBlockingView.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDBrowserController.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDHelpController.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDImportController.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDSamplesController.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Inkpad-Core/Framework\ Files/MKImageMarkup.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDCanvasController.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDDocument.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Inkpad-Core/Model/WDDocumentProtocol.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Inkpad-Core/Model/WDDrawing.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Inkpad-Core/Model/WDStrokeStyle.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDDrawingManager.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDEmail.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDExportController.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDFontLibraryController.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDFontManager.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDPageSizeController.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/WDThumbnailView.h \
+  /Users/manjukiran/Downloads/Inkpad-develop/Classes/UIBarButtonItem+Additions.h

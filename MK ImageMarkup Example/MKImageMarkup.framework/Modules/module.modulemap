@@ -1,0 +1,6 @@
+framework module MKImageMarkup {
+  umbrella header "MKImageMarkup.h"
+
+  export *
+  module * { export * }
+}

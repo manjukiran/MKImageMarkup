@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MKImageMarkup/MKImageMarkup.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController <MKImageMarkupDelegate>
 
 @end
 
