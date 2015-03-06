@@ -255,7 +255,7 @@
         return;
     }
     
-    WDUnitsController *units = [[WDUnitsController alloc] initWithNibName:nil bundle:nil];
+    WDUnitsController *units = [[WDUnitsController alloc] initWithNibName:nil bundle:[NSBundle bundleForClass:[self class]]];
     units.drawing = self.drawing;
     [[self navigationController] pushViewController:units animated:YES];
     

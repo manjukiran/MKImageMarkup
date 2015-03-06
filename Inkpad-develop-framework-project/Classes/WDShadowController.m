@@ -162,7 +162,7 @@
 {
     [super viewDidLoad];
     
-    colorController_ = [[WDColorController alloc] initWithNibName:@"Color" bundle:nil];
+    colorController_ = [[WDColorController alloc] initWithNibName:@"Color" bundle:[NSBundle bundleForClass:[self class]]];
     [self.view addSubview:colorController_.view];
     colorController_.colorWell.shadowMode = YES;
     
@@ -170,7 +170,7 @@
     frame.origin = CGPointMake(5, 5);
     colorController_.view.frame = frame;
 	
-    blendModeController_ = [[WDBlendModeController alloc] initWithNibName:nil bundle:nil];
+    blendModeController_ = [[WDBlendModeController alloc] initWithNibName:nil bundle:[NSBundle bundleForClass:[self class]]];
     blendModeController_.preferredContentSize = self.view.frame.size;
     blendModeController_.drawingController = self.drawingController;
 	

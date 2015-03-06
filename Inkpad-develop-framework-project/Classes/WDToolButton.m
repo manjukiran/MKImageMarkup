@@ -180,7 +180,7 @@
         WDToolView *subtools = [[WDToolView alloc] initWithTools:tools_];
         subtools.owner = self;
         
-        UIViewController *vc = [[UIViewController alloc] initWithNibName:nil bundle:nil];
+        UIViewController *vc = [[UIViewController alloc] initWithNibName:nil bundle:[NSBundle bundleForClass:[self class]]];
         vc.preferredContentSize = subtools.frame.size;
         vc.view = subtools;
         

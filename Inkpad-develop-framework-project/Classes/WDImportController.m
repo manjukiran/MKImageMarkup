@@ -371,7 +371,7 @@ static NSString * const WDDropboxSubdirectoryMissingNotification = @"WDDropboxSu
 
 - (WDImportController *)subdirectoryImportControllerForPath:(NSString *)subdirectoryPath
 {
-	WDImportController *subdirectoryImportController = [[WDImportController alloc] initWithNibName:@"Import" bundle:nil];
+	WDImportController *subdirectoryImportController = [[WDImportController alloc] initWithNibName:@"Import" bundle:[NSBundle bundleForClass:[self class]]];
 	subdirectoryImportController.remotePath = subdirectoryPath;
 	subdirectoryImportController.title = [subdirectoryPath lastPathComponent];
 	subdirectoryImportController.delegate = self.delegate;

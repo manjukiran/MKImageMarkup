@@ -221,7 +221,7 @@ const float kMaxStrokeWidth = 300.0f;
 
 - (IBAction)showArrowheads:(id)sender
 {
-    WDArrowController *arrowController = [[WDArrowController alloc] initWithNibName:nil bundle:nil];
+    WDArrowController *arrowController = [[WDArrowController alloc] initWithNibName:nil bundle:[NSBundle bundleForClass:[self class]]];
     arrowController.preferredContentSize = self.view.frame.size;
     arrowController.drawingController = self.drawingController;
 	[self.navigationController pushViewController:arrowController animated:YES];
@@ -302,7 +302,7 @@ const float kMaxStrokeWidth = 300.0f;
 {
     [super viewDidLoad];
     
-    colorController_ = [[WDColorController alloc] initWithNibName:@"Color" bundle:nil];
+    colorController_ = [[WDColorController alloc] initWithNibName:@"Color" bundle:[NSBundle bundleForClass:[self class]]];
     
     [self.view addSubview:colorController_.view];
     CGRect frame = colorController_.view.frame;

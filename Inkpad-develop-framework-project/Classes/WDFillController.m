@@ -104,7 +104,7 @@
 {
     [super viewDidLoad];
     
-    colorController_ = [[WDColorController alloc] initWithNibName:@"Color" bundle:nil];
+    colorController_ = [[WDColorController alloc] initWithNibName:@"Color" bundle:[NSBundle bundleForClass:[self class]]];
     [self.view addSubview:colorController_.view];
     
     CGRect frame = colorController_.view.frame;
@@ -114,7 +114,7 @@
     colorController_.target = self;
     colorController_.action = @selector(takeColorFrom:);
     
-    gradientController_ = [[WDGradientController alloc] initWithNibName:@"Gradient" bundle:nil];
+    gradientController_ = [[WDGradientController alloc] initWithNibName:@"Gradient" bundle:[NSBundle bundleForClass:[self class]]];
     [self.view addSubview:gradientController_.view];
     
     gradientController_.target = self;

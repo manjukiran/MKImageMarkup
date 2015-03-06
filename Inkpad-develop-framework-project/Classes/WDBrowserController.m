@@ -176,7 +176,7 @@ NSString *WDAttachmentNotification = @"WDAttachmentNotification";
     if (popoverController_) {
         [self dismissPopover];
     } else {
-        pageSizeController_ = [[WDPageSizeController alloc] initWithNibName:nil bundle:nil];
+        pageSizeController_ = [[WDPageSizeController alloc] initWithNibName:nil bundle:[NSBundle bundleForClass:[self class]]];
         UINavigationController  *navController = [[UINavigationController alloc] initWithRootViewController:pageSizeController_];
         
         pageSizeController_.target = self;
@@ -242,7 +242,7 @@ NSString *WDAttachmentNotification = @"WDAttachmentNotification";
 ////    [self dismissPopover];
 ////    
 ////    if (!openClipArtController_) {
-////        openClipArtController_ = [[OCAViewController alloc] initWithNibName:@"OpenClipArt" bundle:nil];
+////        openClipArtController_ = [[OCAViewController alloc] initWithNibName:@"OpenClipArt" bundle:[NSBundle bundleForClass:[self class]]];
 ////        [openClipArtController_ setImportTarget:self action:@selector(importOpenClipArt:)];
 ////        [openClipArtController_ setActionTitle:NSLocalizedString(@"Import", @"Import")];
 ////    }
@@ -684,7 +684,7 @@ NSString *WDAttachmentNotification = @"WDAttachmentNotification";
     
     [self dismissPopover];
     
-    fontLibraryController_ = [[WDFontLibraryController alloc] initWithNibName:nil bundle:nil];
+    fontLibraryController_ = [[WDFontLibraryController alloc] initWithNibName:nil bundle:[NSBundle bundleForClass:[self class]]];
 
     UINavigationController  *navController = [[UINavigationController alloc] initWithRootViewController:fontLibraryController_];
     
@@ -709,7 +709,7 @@ NSString *WDAttachmentNotification = @"WDAttachmentNotification";
     
     [self dismissPopover];
     
-    samplesController_ = [[WDSamplesController alloc] initWithNibName:nil bundle:nil];
+    samplesController_ = [[WDSamplesController alloc] initWithNibName:nil bundle:[NSBundle bundleForClass:[self class]]];
     samplesController_.title = NSLocalizedString(@"Samples", @"Samples");
     samplesController_.delegate = self;
     
@@ -729,7 +729,7 @@ NSString *WDAttachmentNotification = @"WDAttachmentNotification";
     
     [self dismissPopover];
     
-    activityController_ = [[WDActivityController alloc] initWithNibName:nil bundle:nil];
+    activityController_ = [[WDActivityController alloc] initWithNibName:nil bundle:[NSBundle bundleForClass:[self class]]];
     activityController_.activityManager = activities_;
     
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:activityController_];
@@ -770,7 +770,7 @@ NSString *WDAttachmentNotification = @"WDAttachmentNotification";
 
 - (void) showHelp:(id)sender
 {
-    WDHelpController *helpController = [[WDHelpController alloc] initWithNibName:nil bundle:nil];
+    WDHelpController *helpController = [[WDHelpController alloc] initWithNibName:nil bundle:[NSBundle bundleForClass:[self class]]];
     
     // Create a Navigation controller
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:helpController];
@@ -909,7 +909,7 @@ NSString *WDAttachmentNotification = @"WDAttachmentNotification";
     
     [self dismissPopover];
     
-    exportController_ = [[WDExportController alloc] initWithNibName:nil bundle:nil];
+    exportController_ = [[WDExportController alloc] initWithNibName:nil bundle:[NSBundle bundleForClass:[self class]]];
     exportController_.mode = kWDExportViaEmailMode;
     
     exportController_.action = @selector(emailDrawings:);
@@ -984,7 +984,7 @@ NSString *WDAttachmentNotification = @"WDAttachmentNotification";
     
     [self dismissPopover];
     
-    exportController_ = [[WDExportController alloc] initWithNibName:nil bundle:nil];
+    exportController_ = [[WDExportController alloc] initWithNibName:nil bundle:[NSBundle bundleForClass:[self class]]];
     exportController_.mode = kWDExportViaDropboxMode;
     
     exportController_.action = @selector(uploadDrawings:);
@@ -1018,7 +1018,7 @@ NSString *WDAttachmentNotification = @"WDAttachmentNotification";
 	
 	[self dismissPopover];
 	
-	importController_ = [[WDImportController alloc] initWithNibName:@"Import" bundle:nil];
+	importController_ = [[WDImportController alloc] initWithNibName:@"Import" bundle:[NSBundle bundleForClass:[self class]]];
 	importController_.title = @"Dropbox";
 	importController_.delegate = self;
 	

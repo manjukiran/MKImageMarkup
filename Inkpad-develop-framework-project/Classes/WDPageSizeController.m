@@ -154,7 +154,7 @@ static NSString *orientations_[] = { @"Portrait", @"Landscape" };
 
 - (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath
 {
-    WDUnitsController *units = [[WDUnitsController alloc] initWithNibName:nil bundle:nil];
+    WDUnitsController *units = [[WDUnitsController alloc] initWithNibName:nil bundle:[NSBundle bundleForClass:[self class]]];
     
     [self tableView:table_ didSelectRowAtIndexPath:indexPath];
     

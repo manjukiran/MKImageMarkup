@@ -63,7 +63,7 @@
 {
     [self hidePopovers];
     
-    WDTextController *textController = [[WDTextController alloc] initWithNibName:@"Text" bundle:nil];
+    WDTextController *textController = [[WDTextController alloc] initWithNibName:@"Text" bundle:[NSBundle bundleForClass:[self class]]];
     
     textController.canvasController = self;
     textController.editingObject = text;
@@ -150,7 +150,7 @@
         return;
     }
     
-    WDSettingsController *settings = [[WDSettingsController alloc] initWithNibName:nil bundle:nil];
+    WDSettingsController *settings = [[WDSettingsController alloc] initWithNibName:nil bundle:[NSBundle bundleForClass:[self class]]];
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:settings];
     
     settings.drawing = document_.drawing;
@@ -813,7 +813,7 @@
         return;
     }
     
-    WDFontController *controller = [[WDFontController alloc] initWithNibName:@"Font" bundle:nil];
+    WDFontController *controller = [[WDFontController alloc] initWithNibName:@"Font" bundle:[NSBundle bundleForClass:[self class]]];
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
     controller.drawingController = self.drawingController;
     
@@ -829,7 +829,7 @@
     }
     
     if (!shadowController_) {
-        shadowController_ = [[WDShadowController alloc] initWithNibName:@"Shadow" bundle:nil];
+        shadowController_ = [[WDShadowController alloc] initWithNibName:@"Shadow" bundle:[NSBundle bundleForClass:[self class]]];
         shadowController_.drawingController = self.drawingController;
     }
     
@@ -845,7 +845,7 @@
     }
     
     if (!fillController_) {
-        fillController_ = [[WDFillController alloc] initWithNibName:@"Fill" bundle:nil];
+        fillController_ = [[WDFillController alloc] initWithNibName:@"Fill" bundle:[NSBundle bundleForClass:[self class]]];
         fillController_.drawingController = self.drawingController;
     }
     
@@ -861,7 +861,7 @@
     }
     
     if (!strokeController_) {
-        strokeController_ = [[WDStrokeController alloc] initWithNibName:@"Stroke" bundle:nil];
+        strokeController_ = [[WDStrokeController alloc] initWithNibName:@"Stroke" bundle:[NSBundle bundleForClass:[self class]]];
         strokeController_.drawingController = self.drawingController;
     }
     
@@ -877,7 +877,7 @@
     }
     
     if (!swatchController_) {
-        swatchController_ = [[WDSwatchController alloc] initWithNibName:nil bundle:nil];
+        swatchController_ = [[WDSwatchController alloc] initWithNibName:nil bundle:[NSBundle bundleForClass:[self class]]];
         swatchController_.drawingController = self.drawingController;
     }
     
@@ -895,7 +895,7 @@
     }
     
     if (!layerController_) {
-        layerController_ = [[WDLayerController alloc] initWithNibName:nil bundle:nil];
+        layerController_ = [[WDLayerController alloc] initWithNibName:nil bundle:[NSBundle bundleForClass:[self class]]];
         layerController_.drawing = self.drawing;
     }
     
@@ -913,7 +913,7 @@
     }
     
     if (!hueController_) {
-        hueController_ = [[WDHueSaturationController alloc] initWithNibName:@"HueSaturation" bundle:nil];
+        hueController_ = [[WDHueSaturationController alloc] initWithNibName:@"HueSaturation" bundle:[NSBundle bundleForClass:[self class]]];
         hueController_.drawingController = self.drawingController;
         hueController_.canvas = self.canvas;
     }
@@ -929,7 +929,7 @@
     }
     
     if (!balanceController_) {
-        balanceController_ = [[WDColorBalanceController alloc] initWithNibName:@"ColorBalance" bundle:nil];
+        balanceController_ = [[WDColorBalanceController alloc] initWithNibName:@"ColorBalance" bundle:[NSBundle bundleForClass:[self class]]];
         balanceController_.drawingController = self.drawingController;
         balanceController_.canvas = self.canvas;
     }

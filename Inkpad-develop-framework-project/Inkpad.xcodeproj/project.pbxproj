@@ -668,7 +668,6 @@
 		C2D1CFF71A9C893E00503A52 /* Stroke.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B5335391803538D00D46D5B /* Stroke.xib */; };
 		C2D1CFF81A9C893E00503A52 /* Text.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B53353B1803538D00D46D5B /* Text.xib */; };
 		C2D1CFFA1A9C894D00503A52 /* Help in Resources */ = {isa = PBXBuildFile; fileRef = 6B87CA5C1312610D0027A482 /* Help */; };
-		C2D1CFFB1A9C895700503A52 /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = 6B616773137B429200BEC0BA /* Samples */; };
 		C2D1CFFC1A9C896C00503A52 /* ColorBalance.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B83972518A41125001D5985 /* ColorBalance.strings */; };
 		C2D1CFFD1A9C896C00503A52 /* HueSaturation.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B83972718A41125001D5985 /* HueSaturation.strings */; };
 		C2D1CFFE1A9C896C00503A52 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B83972918A41125001D5985 /* Localizable.strings */; };
@@ -922,7 +921,7 @@
 		5D27FE8C13EC992D00EEEFF7 /* WDSamplesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDSamplesController.h; sourceTree = "<group>"; };
 		5D27FE8D13EC992D00EEEFF7 /* WDSamplesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDSamplesController.m; sourceTree = "<group>"; };
 		5D348D871386FDA200BB0047 /* WDImportController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDImportController.h; sourceTree = "<group>"; };
-		5D348D881386FDA200BB0047 /* WDImportController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDImportController.m; sourceTree = "<group>"; };
+		5D348D881386FDA200BB0047 /* WDImportController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WDImportController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		5D3C1A74138771900040D261 /* dropbox_icon_directory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dropbox_icon_directory.png; path = Images/dropbox_icon_directory.png; sourceTree = "<group>"; };
 		5D3C1A75138771900040D261 /* dropbox_icon_generic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dropbox_icon_generic.png; path = Images/dropbox_icon_generic.png; sourceTree = "<group>"; };
 		5D62B27313CE866500E4D41B /* WDBlendModeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDBlendModeController.h; sourceTree = "<group>"; };
@@ -947,7 +946,7 @@
 		6B197DAA12434CED006C5C3A /* align_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = align_right.png; path = Images/align_right.png; sourceTree = "<group>"; };
 		6B197DAB12434CED006C5C3A /* align_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = align_top.png; path = Images/align_top.png; sourceTree = "<group>"; };
 		6B197E101243611E006C5C3A /* WDSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDSettingsController.h; sourceTree = "<group>"; };
-		6B197E111243611E006C5C3A /* WDSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDSettingsController.m; sourceTree = "<group>"; };
+		6B197E111243611E006C5C3A /* WDSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WDSettingsController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		6B1BF3B41316294800005747 /* Inkpad_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inkpad_Prefix.pch; sourceTree = "<group>"; };
 		6B1E328A126CA0D900E89FA1 /* WDExportController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDExportController.h; sourceTree = "<group>"; };
 		6B1E328B126CA0D900E89FA1 /* WDExportController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDExportController.m; sourceTree = "<group>"; };
@@ -989,7 +988,7 @@
 		6B23AA5D13BBECD800C9B5F0 /* WDModalTitleBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDModalTitleBar.h; sourceTree = "<group>"; };
 		6B23AA5E13BBECD800C9B5F0 /* WDModalTitleBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDModalTitleBar.m; sourceTree = "<group>"; };
 		6B27E7EB12564B8F0066E24F /* WDPageSizeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDPageSizeController.h; sourceTree = "<group>"; };
-		6B27E7EC12564B8F0066E24F /* WDPageSizeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDPageSizeController.m; sourceTree = "<group>"; };
+		6B27E7EC12564B8F0066E24F /* WDPageSizeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WDPageSizeController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		6B2AC3FA17EAD420008D6391 /* duplicate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "duplicate@2x.png"; path = "Images/duplicate@2x.png"; sourceTree = "<group>"; };
 		6B2AC3FC17EB11A8008D6391 /* zoom_to_fit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zoom_to_fit@2x.png"; path = "Images/zoom_to_fit@2x.png"; sourceTree = "<group>"; };
 		6B308FB513B56A8A000665C3 /* WDColorAdjustmentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDColorAdjustmentController.h; sourceTree = "<group>"; };
@@ -999,7 +998,7 @@
 		6B356057136026AA007D8DBB /* WDAnglePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDAnglePicker.h; sourceTree = "<group>"; };
 		6B356058136026AA007D8DBB /* WDAnglePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDAnglePicker.m; sourceTree = "<group>"; };
 		6B35605A13602E57007D8DBB /* WDShadowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDShadowController.h; sourceTree = "<group>"; };
-		6B35605B13602E57007D8DBB /* WDShadowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDShadowController.m; sourceTree = "<group>"; };
+		6B35605B13602E57007D8DBB /* WDShadowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WDShadowController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		6B3560661361220F007D8DBB /* WDShadowWell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDShadowWell.h; sourceTree = "<group>"; };
 		6B35606713612215007D8DBB /* WDShadowWell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDShadowWell.m; sourceTree = "<group>"; };
 		6B3A2A551256E2CE00574B41 /* hidden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hidden.png; path = Images/hidden.png; sourceTree = "<group>"; };
@@ -1135,7 +1134,7 @@
 		6B957539183C53BF0094B7D5 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Stroke.strings; sourceTree = "<group>"; };
 		6B95E164125EFA5F00E54B56 /* slider_border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = slider_border.png; path = Images/slider_border.png; sourceTree = "<group>"; };
 		6B95E6AD12618DAC00E54B56 /* WDFillController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDFillController.h; sourceTree = "<group>"; };
-		6B95E6AE12618DAC00E54B56 /* WDFillController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDFillController.m; sourceTree = "<group>"; };
+		6B95E6AE12618DAC00E54B56 /* WDFillController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WDFillController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		6B95E7631261B63400E54B56 /* WDSwatchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDSwatchController.h; sourceTree = "<group>"; };
 		6B95E7641261B63400E54B56 /* WDSwatchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDSwatchController.m; sourceTree = "<group>"; };
 		6B963450140359060096A349 /* WDUserFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDUserFont.h; sourceTree = "<group>"; };
@@ -1338,7 +1337,7 @@
 		6BBCDDEB1368085100DB910B /* WDToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDToolView.h; sourceTree = "<group>"; };
 		6BBCDDEC1368085100DB910B /* WDToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDToolView.m; sourceTree = "<group>"; };
 		6BBCDDEE136808A800DB910B /* WDToolButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDToolButton.h; sourceTree = "<group>"; };
-		6BBCDDEF136808A800DB910B /* WDToolButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDToolButton.m; sourceTree = "<group>"; };
+		6BBCDDEF136808A800DB910B /* WDToolButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WDToolButton.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		6BC062AD124F719000451362 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkmark.png; path = Images/checkmark.png; sourceTree = "<group>"; };
 		6BC73EEF16025A1B0045647B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		6BC9674B183149E300F46191 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
@@ -1407,7 +1406,7 @@
 		6BF0C078125E8345009BB05C /* WDColorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDColorController.h; sourceTree = "<group>"; };
 		6BF0C079125E8345009BB05C /* WDColorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDColorController.m; sourceTree = "<group>"; };
 		6BF0C24E125F9F63009BB05C /* WDStrokeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDStrokeController.h; sourceTree = "<group>"; };
-		6BF0C24F125F9F63009BB05C /* WDStrokeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDStrokeController.m; sourceTree = "<group>"; };
+		6BF0C24F125F9F63009BB05C /* WDStrokeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WDStrokeController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		6BF0C305125FB46A009BB05C /* WDGradientEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDGradientEditor.h; sourceTree = "<group>"; };
 		6BF0C306125FB46A009BB05C /* WDGradientEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDGradientEditor.m; sourceTree = "<group>"; };
 		6BF0C327125FB905009BB05C /* WDGradientController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDGradientController.h; sourceTree = "<group>"; };
@@ -2912,7 +2911,6 @@
 				C2D1D01F1A9C896D00503A52 /* OpenClipArt.strings in Resources */,
 				C2D1D0201A9C896D00503A52 /* Shadow.strings in Resources */,
 				C2D1D0211A9C896D00503A52 /* Stroke.strings in Resources */,
-				C2D1CFFB1A9C895700503A52 /* Samples in Resources */,
 				C2D1CFFA1A9C894D00503A52 /* Help in Resources */,
 				C2D1CFEA1A9C893D00503A52 /* Activity.xib in Resources */,
 				C2D1CFEB1A9C893D00503A52 /* Color.xib in Resources */,
@@ -4164,6 +4162,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -4191,7 +4190,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
@@ -4224,6 +4223,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -4251,7 +4251,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
@@ -4284,6 +4284,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -4345,6 +4346,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 2;
